@@ -12,7 +12,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = False  # لازم False على Render
 
 # ALLOWED_HOSTS
-ALLOWED_HOSTS = ['foodwebsite.onrender.com']  # عدل الاسم حسب الدومين اللي Render هيديهولك
+ALLOWED_HOSTS = ['FoodWebsite.onrender.com']  # عدل الاسم حسب الدومين اللي Render هيديهولك
 
 # لو محتاج تشغل الموقع محلياً كمان نفس الوقت:
 # ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'foodwebsite.onrender.com']
