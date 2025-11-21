@@ -75,7 +75,7 @@ STATIC_URL = '/static/'
 # فولدرات المشروع اللي فيها static محليًا
 STATICFILES_DIRS = [
     BASE_DIR / "static",
-    BASE_DIR / "menu" / "static",
+    BASE_DIR / "menu",
 ]
 
 # فولدر هيتم إنشاءه تلقائيًا بعد collectstatic على Render
